@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> The Dental Hygiene Association</title>
+
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+
+
+
+    header {
+
+        display: flex;
+        color: grey;
+        background-color: #ffffff;
+        padding: 10px;
+        justify-content: flex-start;
+    }
+
+
+    .logo {
+        width: 100px;
+        height: 100px;
+        margin-inline-start: 10px;
+        display: flex;
+    }
+
+    h1 {
+        display: flex;
+        font-size: 40px;
+        margin: 40px 206px;
+        color: black;
+    }
+
+    .nav ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        align-items: center;
+        margin: 25px 20px;
+    }
+
+    .nav ul li {
+        display: inline;
+        padding: 20px;
+    }
+    #banner {
+        background: linear-gradient(to right, #d1162f, #5b1ac5);
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        font-size: 2.3em;
+        margin: 25px 20px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-around;
+        margin: 35px 20px;
+    }
+    .news-events {
+        background-color: plum;
+        width: 300px;
+        height: 400px;
+        border: 2px solid black;
+        border-radius: 20px;
+    }
+    .find-dentist {
+        background-color: pink;
+        width: 300px;
+        height: 400px;
+        border: 2px solid black;
+        border-radius: 20px;
+    }
+
+    .quick-tips {
+        background-color: grey;
+        width: 300px;
+        height: 400px;
+        border: 2px solid black;
+        border-radius: 20px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+     </head>
+</style>
+
+<body>
+    <header>
+        <img src="https://news.sunybroome.edu/buzz/wp-content/uploads/sites/2/2021/03/happyTooth.jpg"
+            alt="The Dental Hygiene Association Logo" class="logo">
+
+        <h1><i>The Dental Hygiene Association</i></h1>
+
+    </header>
+    <div class="nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Adults</a></li>
+            <li><a href="#">Kids</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Glossary</a></li>
+        </ul>
+    </div>
+    <main>
+        <section id="banner">
+            <p>Only 46% of households buy toothbrushes</p>
+        </section>
+        <div class="container">
+            <section class="news-events">
+                <h2>News & Events</h2>
+                <ul style="line-height: 47px;">
+                    <li>Irish Academy of Aesthetic Dentistry (IAAD) Meeting</li>
+                    <li>Irish dentists report on eating disorders</li>
+                    <li>IDA Annual Conference 2014</li>
+                    <li>Maternal saliva predicts dental health</li>
+                </ul>
+            </section>
+            <section class="find-dentist">
+                <h2>Find a Dentist</h2>
+                <p>
+                    looking for a dentist in your area? Enter any details below an search for dentist near you
+                </p>
+                <form style="line-height: 30px;">
+                    <label for="first-name">First Name:</label>
+                    <br />
+                    <input type="text" id="first-name" placeholder="First name">
+
+                    <br />
+                    <label for="last-name">Last Name:</label>
+                    <br />
+                    <input type="text" id="last-name" placeholder="Last-name">
+                    <br />
+                    <label for="location">Location:</label>
+                    <br />
+                    <input type="text" id="location" placeholder="Location">
+                    <br />
+                    <label for="type">What type of dentist are you looking for?</label>
+                    <br />
+                    <input type="checkbox" id="orthodontist" name="type" value="orthodontist">
+                    <label for="orthodontist">Orthodontist</label>
+                    <br />
+                    <input type="checkbox" id="general" name="type" value="general">
+                    <label for="general">General Dental Practitioner</label>
+                </form>
+            </section>
+            <section class="quick-tips" style="line-height: 40px;">
+                <h2 line-height: 47px>Quick Tips</h2>
+                <ul>
+                    <li>Change your toothbrush every 3 months</li>
+                    <li>Clean your tongue as well as your teeth</li>
+                    <li>Floss every day</li>
+                    <li>See your dentist every 6 months</li>
+                    <li>Cut down on how often you have sweet drinks and foods</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+</body>
+
+</html>
+
+</body>
+
+</html>
